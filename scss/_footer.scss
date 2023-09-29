@@ -1,0 +1,33 @@
+.footer {
+  margin-top: 116px;
+  display: grid;
+  grid-template-columns: repeat(37, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+
+  .footer-projects {
+    grid-column: 26/28;
+    }
+
+  .footer-contact {
+    grid-column: 29/31;
+  }
+
+  a{
+    text-decoration: none;
+    color: #111111;
+    font-size: 18px;
+  }
+
+  .basketball {
+    grid-column: 34;
+  }
+
+  .instagram{
+    grid-column: 36;
+  }
+
+  .twitter{
+    grid-column: 38;
+  }
+}
