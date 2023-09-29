@@ -1,0 +1,47 @@
+$deepBlue: #4a4ff2;
+$lightBlack: #111;
+
+.header {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-between;
+
+  .header-text {
+    color: $deepBlue;
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: capitalize;
+  }
+
+  .header-heading {
+    max-width: 635px;
+    font-size: 40px;
+    line-height: 60px;
+    margin-top: 32px;
+    position: relative;
+  }
+
+  .designer {
+    color: $deepBlue;
+  }
+
+  .header-quote{
+    margin-bottom: 25px;
+    align-self: flex-end;
+
+  }
+
+  .header-quote-text {
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 9px;
+    color: $lightBlack;
+  }
+
+  .header-line {
+    width: 30px;
+    height: 2px;
+    margin-bottom: 0;
+    background: $lightBlack;
+  }
+}

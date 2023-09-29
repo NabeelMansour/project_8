@@ -342,4 +342,15 @@ template {
 [hidden] {
   display: none;
 }
-/*# sourceMappingURL=normalize.css.map */
+/* wrapper */
+
+.wrapper{
+  max-width: 1109px;
+  margin: 0 auto;
+}
+
+/* images */
+/* img {
+  display: block;
+  width: 100%;
+} */

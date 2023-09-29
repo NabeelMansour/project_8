@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 41px;
+  .nav-list {
+    display: flex;
+    text-transform: capitalize;
+  }
+
+  li{
+    margin-left: 1rem;
+    color: #111;
+    font-weight: 700;
+    font-size: 18px;
+  }
+}
