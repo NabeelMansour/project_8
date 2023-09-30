@@ -5,9 +5,12 @@
 @import 'grid';
 @import 'sections';
 @import 'footer';
+@import 'projects';
 
 *{
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body{
