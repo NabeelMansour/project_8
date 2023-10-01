@@ -1,0 +1,59 @@
+.contact-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 90px;
+
+  h1 {
+    max-width: 465px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+  }
+  p {
+    max-width: 445px;
+  }
+
+  .contact-info {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    max-width: 475px;
+
+    .username {
+      grid-column: 1;
+      grid-row: 2;
+    }
+    .email {
+      grid-column: 1;
+      grid-row: 4;
+    }
+    .message {
+      grid-column: 1;
+      grid-row: 6;
+    }
+    .btn {
+      grid-column: 1;
+      grid-row: 9;
+    }
+    button {
+      background: #4a4ff2;
+      border: none;
+      width: 125px;
+      height: 50px;
+      color: #fff;
+    }
+    input {
+      border: none;
+    }
+    .dividere {
+      border-bottom: $samllBorder;
+      grid-column: 1/8;
+      padding: 8px 0;
+    }
+  }
+}
+
+.map {
+  margin-top: 120px;
+}
